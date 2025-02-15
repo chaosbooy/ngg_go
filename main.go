@@ -30,7 +30,7 @@ Please select the difficulty level:
 	}
 
 	var search, guess uint8
-	search = uint8(rand.Intn(10))
+	search = uint8(rand.Intn(100))
 
 	fmt.Println("Enter your choice: ")
 	fmt.Scanln(&guess)
