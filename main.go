@@ -5,19 +5,6 @@ import (
 	"math/rand"
 )
 
-// func getInitials(fullName string) (initials []string) {
-
-// 	fullName = strings.ToUpper(fullName);
-// 	nameSplit := strings.Split(fullName, " ")
-
-// 	for _, v := range nameSplit {
-// 		initials = append(initials, v[:1])
-// 	}
-
-// 	return
-
-// }
-
 func main() {
 
 	var difficulty uint8
